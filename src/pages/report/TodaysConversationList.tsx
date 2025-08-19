@@ -151,7 +151,7 @@ const TodaysConversionList = () => {
 
                 const response = await fetch(`${url.nodeapipath}/conversation/call/${call_uuid}`, {
                     method: 'GET',
-                    headers: { 
+                    headers: {
                     'Content-Type': 'application/json',
                     'Access-Control-Allow-Origin': '*',
                     'Authorization': `Bearer ${bearerToken}`
